@@ -1,0 +1,123 @@
+
+.rounded-photo{
+  border-radius: 50%;
+}
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* From Uiverse.io by mrhyddenn */ 
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  
+}
+
+.shadow__btn {
+  background:  #9E653B;
+  box-shadow: 0 0 25px  #9E653B;
+  
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px  #9E653B,
+              0 0 25px  #9E653B,
+              0 0 50px  #9E653B,
+              0 0 100px  #9E653B;
+}
+.basic-background-color{
+  background-color: #9E653B;
+}
+
+
+
+.bg {
+  /* The image used */
+  background-image: url("./assests/imgaes/wood.png");
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.profile{
+    border-radius: 50%;
+    height:43px;
+    width: 43px;
+    margin-right: 5px;
+}
+.carousel{
+    border-radius: 1.5%;
+}
+      
+.Moaied{
+    border-radius: 50%;
+}
+.btn-bd-primary {
+    --bd-brown-bg:#9E653B ;
+    --bd-brown-rgb: 112.520718, 44.062154, 249.437846;
+   
+    --bs-btn-bg: var(--bd-brown-bg);
+    --bs-btn-border-color: var(--bd-brown-bg);
+    
+    --bs-btn-hover-bg: #9E653B ;
+    --bs-btn-hover-border-color: #9E653B ;
+    --bs-btn-focus-shadow-rgb: var(--bd-brown-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #9E653B;
+    --bs-btn-active-border-color: #9E653B;
+  }
+  
+  .dropdown-item.active{
+    --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+    --bs-dropdown-divider-margin-y: 0.5rem;
+    --bs-dropdown-box-shadow: var(--bs-box-shadow);
+    --bs-dropdown-link-color: var(--bs-body-color);
+    --bs-dropdown-link-hover-color: var(--bs-body-color);
+    --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
+    --bs-dropdown-link-active-color: #fff;
+    --bs-dropdown-link-active-bg:#c32;
+    --bs-dropdown-link-disabled-color: 
+  }
+  .footer-logo{
+    border-radius: 50%;
+  }
+  .footer{
+    background-color: #202020;
+
+  }
+  .text{
+    color: white;
+  }
+  .button{
+    background-color: #9E653B;
+  }
+.basic-color{
+  color: #9E653B;
+}
+  
+  
